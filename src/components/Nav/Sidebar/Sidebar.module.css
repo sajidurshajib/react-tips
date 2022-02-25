@@ -1,0 +1,17 @@
+.Sidebar {
+    margin: 20px 50px;
+}
+.Sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.Sidebar ul li {
+    display: inlin-block;
+    text-decoration: none;
+}
+.Sidebar ul li a {
+    text-decoration: none;
+    color: mediumpurple;
+    font-size: 20px;
+}

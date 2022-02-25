@@ -1,0 +1,30 @@
+.MultipleInput {
+    margin: 20px 50px;
+}
+.MultipleInput h2 {
+    color: indianred;
+}
+.MultipleInput form {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 4fr));
+    gap: 5px;
+    width: 50vw;
+    margin-top: 5px;
+}
+.MultipleInput form input {
+    border: 1px solid lightblue;
+    border-radius: 2px;
+    padding: 7px 5px;
+}
+.MultipleInput form input:focus {
+    outline: 0;
+}
+.MultipleInput form p {
+    margin: 0 20px;
+    padding: 7px 2px;
+}
+.MultipleInput form button {
+    border: 1px solid lightblue;
+    border-radius: 2px;
+    background: lightblue;
+}
