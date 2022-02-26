@@ -1,12 +1,4 @@
-import { useEffect, useState } from 'react'
-
 const PreviewEdit = ({ data, setData, index }) => {
-    const [myData, setMyData] = useState(data)
-
-    useEffect(() => {
-        setMyData(data)
-    }, [data])
-
     const changeSlot1 = (v) => {
         let copyData = data
         copyData[index].slot1 = v
@@ -26,12 +18,12 @@ const PreviewEdit = ({ data, setData, index }) => {
             <form>
                 <input
                     type="number"
-                    value={myData[index].slot1}
+                    value={data[index].slot1}
                     onChange={(e) => changeSlot1(parseInt(e.target.value))}
                 />
                 <input
                     type="number"
-                    value={myData[index].slot2}
+                    value={data[index].slot2}
                     onChange={(e) => changeSlot2(parseInt(e.target.value))}
                 />
 
